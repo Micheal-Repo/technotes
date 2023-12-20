@@ -4,7 +4,7 @@ import {setCredential} from "../../features/auth/authSlice"
 import {useNavigate} from "react-router-dom"
 
 const baseQuery = fetchBaseQuery({
-  baseUrl :  "https://technotes-api.onrender.com",
+  baseUrl :  "https://technotes-api-3mcq.onrender.com",
   credentials: "include",
   prepareHeaders:(headers,{ getState })=>{
     
