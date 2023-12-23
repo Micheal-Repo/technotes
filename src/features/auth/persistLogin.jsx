@@ -75,7 +75,7 @@ const PersistLogin =()=>{
     content= <Outlet/>
   }
   
-  return <p>welcome</p>
+  return <Outlet/>
   
 
 }
